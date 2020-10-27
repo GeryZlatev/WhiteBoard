@@ -110,14 +110,12 @@
         
         .image-wrapper img {
             width: 100%;
-            min-width: 602px;
         }
         
         .about-wrapper {
             display: inline-block;
             width: 46%;
             padding-left: 30px;
-            min-height: 407px;
         }
         
         .about-wrapper ul li {
@@ -139,7 +137,7 @@
         .about-wrapper ul li i {
             color: #00D08E;
             padding-right: 12px;
-            padding-bottom: 24px;
+            padding-bottom: 18px;
         }
         
         .about-title {
@@ -150,10 +148,6 @@
         
         .content-wrapper article {
             vertical-align: top;
-        }
-        
-        .benefits-wrapper {
-            min-width: 1206px;
         }
         
         .benefits {
@@ -192,50 +186,10 @@
         .benefits-wrapper article {
             vertical-align: top;
             position: relative;
-            top: -5px;
+            top: -6px;
         }
         
         .benefits-title {
             text-align: center;
             font-size: 28px;
-        }
-        
-        .questions {
-            background: #B2F1DD;
-            position: relative;
-            top: -39px;
-            width: 100%;
-            min-width: 1206px;
-        }
-        
-        .question-title {
-            font-size: 28px;
-            text-align: center;
-            padding-top: 30px;
-        }
-        
-        .questions ul {
-            text-align: center;
-        }
-        
-        .questions ul li {
-            display: inline-block;
-            width: 26%;
-            vertical-align: top;
-            margin: auto 20px;
-        }
-        
-        .questions ul li h4 {
-            font-size: 21px;
-            margin-bottom: 5px;
-        }
-        
-        .questions ul li p {
-            margin-top: 0px;
-        }
-        
-        footer p {
-            text-align: center;
-            margin-bottom: 30p;
-            padding-bottom: 30px;
         }
