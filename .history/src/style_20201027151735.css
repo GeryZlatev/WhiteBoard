@@ -1,0 +1,157 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../image/computer-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+
+header nav ul {
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    width: 40%;
+}
+
+nav ul li a i {
+    position: relative;
+    right: 8px;
+    bottom: 0;
+}
+
+.header-title,
+.header-subtitle {
+    color: white;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.header-title {
+    font-size: 45px;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.case {
+    text-align: left;
+}
+
+.cart {
+    text-align: right;
+    margin-right: -110px;
+}
+
+.cta {
+    display: block;
+    width: fit-content;
+    margin: 50px auto 50px auto;
+    background: #00D08E;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 2px;
+    text-decoration: solid;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.action {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.action i {
+    position: relative;
+    left: 7px;
+    font-size: 19px;
+}
+
+.image-wrapper {
+    display: inline-block;
+    width: 50%;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.about-wrapper {
+    display: inline-block;
+    width: 46%;
+    padding-left: 30px;
+}
+
+.about-wrapper ul li {
+    list-style: none;
+}
+
+.about-wrapper ul {
+    padding-left: 10px;
+    margin-top: 34px;
+}
+
+.about-subtitle {
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.about-wrapper ul li i {
+    color: #00D08E;
+    padding-right: 12px;
+    padding-bottom: 18px;
+}
+
+.about-title {
+    font-size: 27px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.content-wrapper article {
+    vertical-align: top;
+}
+
+.benefits,
+.image-benefits {
+    display: inline-block;
+    width: 48%;
+}
+
+.benefits ul li img {
+    width: 50px;
+}
