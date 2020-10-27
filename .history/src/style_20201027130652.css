@@ -1,0 +1,33 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    background-image: url(../image/computer-main.jpg), linear-gradient(90deg, rgba(5, 5, 5, 1) 20%, rgba(254, 255, 254, 1) 68%);
+    margin: 0;
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+}
+
+.case {
+    text-align: left;
+}
+
+.cart {
+    text-align: right;
+}

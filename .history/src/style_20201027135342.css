@@ -36,9 +36,7 @@ header nav ul li {
 }
 
 nav ul li a i {
-    position: relative;
-    right: 8px;
-    bottom: 0;
+    padding-right: 10px;
 }
 
 .header-title,

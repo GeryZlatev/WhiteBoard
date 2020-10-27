@@ -35,10 +35,8 @@ header nav ul li {
     width: 40%;
 }
 
-nav ul li a i {
-    position: relative;
-    right: 8px;
-    bottom: 0;
+nav ul li i {
+    padding-right: 10px;
 }
 
 .header-title,
