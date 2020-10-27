@@ -92,7 +92,7 @@ nav ul li a i {
 
 .image-wrapper {
     display: inline-block;
-    width: 50%;
+    width: 45%;
 }
 
 .image-wrapper img {
@@ -101,38 +101,5 @@ nav ul li a i {
 
 .about-wrapper {
     display: inline-block;
-    width: 46%;
-    padding-left: 30px;
-}
-
-.about-wrapper ul li {
-    list-style: none;
-}
-
-.about-wrapper ul {
-    padding-left: 10px;
-    margin-top: 34px;
-}
-
-.about-subtitle {
-    padding-left: 10px;
-    padding-right: 30px;
-    margin-top: 0px;
-    font-size: 18px;
-}
-
-.about-wrapper ul li i {
-    color: #00D08E;
-    padding-right: 12px;
-    padding-bottom: 18px;
-}
-
-.about-title {
-    font-size: 27px;
-    padding-left: 10px;
-    margin-bottom: 5px;
-}
-
-.content-wrapper article {
-    vertical-align: top;
+    width: 45%;
 }
